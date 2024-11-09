@@ -1,0 +1,46 @@
+
+```json
+{
+  "cronograma": {
+    "etapas": [
+      {
+        "nome": "Levantamento de Requisitos",
+        "inicio": "2024-01-12",
+        "fim": "2024-01-17",
+        "responsavel": "Equipe de Análise"
+      },
+      {
+        "nome": "Análise Técnica",
+        "inicio": "2024-01-18",
+        "fim": "2024-01-21",
+        "responsavel": "Gerente de Projeto"
+      },
+      {
+        "nome": "Desenvolvimento do Script",
+        "inicio": "2024-01-22",
+        "fim": "2024-02-11",
+        "responsavel": "Equipe de Desenvolvimento"
+      },
+      {
+        "nome": "Testes e Validação",
+        "inicio": "2024-02-12",
+        "fim": "2024-02-18",
+        "responsavel": "Equipe de Testes"
+      },
+      {
+        "nome": "Documentação",
+        "inicio": "2024-02-19",
+        "fim": "2024-02-20",
+        "responsavel": "Equipe de Documentação"
+      },
+      {
+        "nome": "Entrega do Projeto",
+        "inicio": "2024-02-21",
+        "fim": "2024-02-21",
+        "responsavel": "Gerente de Projeto"
+      }
+    ]
+  },
+  "nome_do_cronograma": "Cronograma do Projeto - Geração de Arquivos PDF a partir de Tutoriais do YouTube com Transcrição de Áudio"
+}
+```
