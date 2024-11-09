@@ -1,0 +1,60 @@
+
+```json
+{
+  "planilha": {
+    "titulo": "Planilha do Projeto - Geração de Arquivos PDF a partir de Tutoriais do YouTube com Transcrição de Áudio",
+    "descricao": "Esta planilha contém informações detalhadas sobre as etapas do projeto e seu progresso.",
+    "dados": [
+      {
+        "etapa": "Levantamento de Requisitos",
+        "descricao": "Identificação e coleta de requisitos junto aos stakeholders para entender as necessidades do projeto.",
+        "status": "Concluído",
+        "responsavel": "Equipe de Análise",
+        "data_inicio": "2024-01-12",
+        "data_fim": "2024-01-17"
+      },
+      {
+        "etapa": "Análise Técnica",
+        "descricao": "Análise das tecnologias e metodologias a serem utilizadas no desenvolvimento do script.",
+        "status": "Concluído",
+        "responsavel": "Gerente de Projeto",
+        "data_inicio": "2024-01-18",
+        "data_fim": "2024-01-21"
+      },
+      {
+        "etapa": "Desenvolvimento do Script",
+        "descricao": "Desenvolvimento do script para extração de áudio, transcrição e estruturação do PDF.",
+        "status": "Em Andamento",
+        "responsavel": "Equipe de Desenvolvimento",
+        "data_inicio": "2024-01-22",
+        "data_fim": "2024-02-11"
+      },
+      {
+        "etapa": "Testes e Validação",
+        "descricao": "Testar a funcionalidade do script e a precisão da transcrição.",
+        "status": "Pendente",
+        "responsavel": "Equipe de Testes",
+        "data_inicio": "2024-02-12",
+        "data_fim": "2024-02-18"
+      },
+      {
+        "etapa": "Documentação",
+        "descricao": "Criação da documentação do projeto, incluindo guias para usuários.",
+        "status": "Pendente",
+        "responsavel": "Equipe de Documentação",
+        "data_inicio": "2024-02-19",
+        "data_fim": "2024-02-20"
+      },
+      {
+        "etapa": "Entrega do Projeto",
+        "descricao": "Apresentação final do projeto e entrega dos materiais.",
+        "status": "Pendente",
+        "responsavel": "Gerente de Projeto",
+        "data_inicio": "2024-02-21",
+        "data_fim": "2024-02-21"
+      }
+    ]
+  },
+  "nome_da_planilha": "Planilha do Projeto - Geração de Arquivos PDF a partir de Tutoriais do YouTube com Transcrição de Áudio"
+}
+```
