@@ -1,0 +1,64 @@
+
+```json
+{
+  "Roadmap": {
+    "nome_do_Roadmap": "Roadmap do Projeto - Geração de Arquivos PDF a partir de Tutoriais do YouTube com Transcrição de Áudio",
+    "objetivo": "Desenvolver um script que permite a geração de arquivos PDF a partir de tutoriais disponíveis no YouTube, extraindo e transcrevendo o áudio com o modelo 'whisper' e organizando as informações em um PDF estruturado.",
+    "etapas": [
+      {
+        "nome": "Levantamento de Requisitos",
+        "data_inicio": "2024-01-12",
+        "data_fim": "2024-01-17",
+        "responsavel": "Equipe de Análise",
+        "status": "Concluído"
+      },
+      {
+        "nome": "Análise Técnica",
+        "data_inicio": "2024-01-18",
+        "data_fim": "2024-01-21",
+        "responsavel": "Gerente de Projeto",
+        "status": "Concluído"
+      },
+      {
+        "nome": "Desenvolvimento do Script",
+        "data_inicio": "2024-01-22",
+        "data_fim": "2024-02-11",
+        "responsavel": "Equipe de Desenvolvimento",
+        "status": "Em Andamento"
+      },
+      {
+        "nome": "Testes e Validação",
+        "data_inicio": "2024-02-12",
+        "data_fim": "2024-02-18",
+        "responsavel": "Equipe de Testes",
+        "status": "Pendente"
+      },
+      {
+        "nome": "Documentação",
+        "data_inicio": "2024-02-19",
+        "data_fim": "2024-02-20",
+        "responsavel": "Equipe de Documentação",
+        "status": "Pendente"
+      },
+      {
+        "nome": "Entrega do Projeto",
+        "data_inicio": "2024-02-21",
+        "data_fim": "2024-02-21",
+        "responsavel": "Gerente de Projeto",
+        "status": "Pendente"
+      }
+    ],
+    "risks": [
+      "Dificuldades na extração de áudio devido à qualidade do som em vídeos.",
+      "Desafios na precisão da transcrição, especialmente com variações de sotaques ou ruído de fundo.",
+      "O tempo de processamento pode variar conforme a duração e complexidade do áudio extraído."
+    ],
+    "tecnologias": [
+      "Linguagens de programação: Python.",
+      "Bibliotecas: pytube (para acesso ao YouTube), pydub (para extração de áudio), Whisper (para transcrição), FPDF/PDFKit.",
+      "Formatos de saída: PDF."
+    ],
+    "publico_alvo": "Usuários que desejam estudar ou revisar o conteúdo dos tutoriais do YouTube de forma escrita, sem a necessidade de assistir aos vídeos integralmente."
+  }
+}
+```
