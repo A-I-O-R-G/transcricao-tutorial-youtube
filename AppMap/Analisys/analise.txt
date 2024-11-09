@@ -1,0 +1,40 @@
+
+```json
+{
+    "resumo": "O projeto tem como objetivo desenvolver um script que permite a geração de arquivos PDF a partir de tutoriais disponíveis no YouTube, extraindo e transcrevendo o áudio com o modelo 'whisper'. As informações serão organizadas em um PDF estruturado, tornando o conteúdo dos tutoriais acessível na forma escrita.",
+    "requisitos_funcionais": [
+        "O script deve acessar vídeos do YouTube e extrair o áudio em formatos suportados.",
+        "Deve implementar o modelo 'whisper' para a transcrição do áudio em texto.",
+        "A transcrição deve ser estruturada de forma lógica no PDF, incluindo informações contextuais.",
+        "O PDF final deve permitir fácil acesso e leitura das informações transcritas."
+    ],
+    "requisitos_nao_funcionais": [
+        "O sistema deve ser compatível com sistemas operacionais Windows e Linux.",
+        "A geração do PDF deve ser realizada em um tempo eficiente, preferencialmente em menos de 10 minutos por vídeo.",
+        "A interface do usuário deve ser intuitiva e facilitar o uso do script."
+    ],
+    "dependencias": [
+        "A conclusão do levantamento de requisitos e da análise técnica é necessária antes do desenvolvimento do script."
+    ],
+    "marcos": [
+        "Marco 1: Conclusão do Levantamento de Requisitos (2024-01-17)",
+        "Marco 2: Conclusão da Análise Técnica (2024-01-21)",
+        "Marco 3: Início dos Testes e Validação (2024-02-12)",
+        "Marco 4: Entrega do Projeto (2024-02-21)"
+    ],
+    "recursos": [
+        "Equipe de Análise",
+        "Gerente de Projeto",
+        "Equipe de Desenvolvimento",
+        "Equipe de Testes",
+        "Equipe de Documentação",
+        "Linguagens de programação: Python.",
+        "Bibliotecas: pytube, pydub, Whisper, FPDF/PDFKit."
+    ],
+    "riscos": [
+        "Dificuldades na extração de áudio devido à qualidade do som em vídeos.",
+        "Desafios na precisão da transcrição, especialmente com variações de sotaques ou ruído de fundo.",
+        "O tempo de processamento pode variar conforme a duração e complexidade do áudio extraído."
+    ]
+}
+```
