@@ -1,0 +1,46 @@
+
+```json
+{
+  "doc_Pre_Projeto": {
+    "titulo": "Geração de Arquivos PDF a partir de Tutoriais do YouTube com Transcrição de Áudio",
+    "descricao": "Este projeto tem como objetivo desenvolver um script que permite a geração de arquivos PDF a partir de tutoriais disponíveis no YouTube. O script envolverá a extração de áudio dos vídeos, a transcrição desse áudio utilizando o modelo local 'whisper', e a organização das informações em um PDF estruturado.",
+    "objetivos": [
+      "Extrair o áudio dos vídeos de tutoriais do YouTube para capturar o conteúdo falado.",
+      "Utilizar o modelo 'whisper' (modelo pequeno) para transcrever o áudio em texto acessível.",
+      "Organizar a transcrição em um arquivo PDF claro e coerente.",
+      "Incluir informações adicionais relevantes no PDF, como títulos dos tutoriais, seções do vídeo e timestamps para facilitar a navegação."
+    ],
+    "requisitos": {
+      "funcionais": [
+        "O script deve acessar vídeos do YouTube e extrair o áudio em formatos suportados.",
+        "Deve implementar o modelo 'whisper' para a transcrição do áudio em texto.",
+        "A transcrição deve ser estruturada de forma lógica no PDF, incluindo informações contextuais.",
+        "O PDF final deve permitir fácil acesso e leitura das informações transcritas."
+      ],
+      "não_funcionais": [
+        "O sistema deve ser compatível com sistemas operacionais Windows e Linux.",
+        "A geração do PDF deve ser realizada em um tempo eficiente, preferencialmente em menos de 10 minutos por vídeo.",
+        "A interface do usuário deve ser intuitiva e facilitar o uso do script."
+      ]
+    },
+    "público_alvo": "Usuários que desejam estudar ou revisar o conteúdo dos tutoriais do YouTube de forma escrita, sem a necessidade de assistir aos vídeos integralmente.",
+    "tecnologias": [
+      "Linguagens de programação: Python.",
+      "Bibliotecas: pytube (para acesso ao YouTube), pydub (para extração de áudio), Whisper (para transcrição), FPDF/PDFKit.",
+      "Formatos de saída: PDF."
+    ],
+    "cronograma": "A ser definido pelo Gerente de Projeto após análise deste documento.",
+    "risks": [
+      "Dificuldades na extração de áudio devido à qualidade do som em vídeos.",
+      "Desafios na precisão da transcrição, especialmente com variações de sotaques ou ruído de fundo.",
+      "O tempo de processamento pode variar conforme a duração e complexidade do áudio extraído."
+    ]
+  }
+}
+```
+
+```json
+{
+  "name_doc_Pre_Projeto": "Pre-Projeto - Geração de Arquivos PDF a partir de Tutoriais do YouTube com Transcrição de Áudio"
+}
+```
